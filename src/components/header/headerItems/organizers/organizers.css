@@ -1,0 +1,29 @@
+.main__organizers{
+    background-color: white;
+    margin-top: 40px;
+}
+.main__organizers-h{
+    text-align: center;
+    padding-top: 50px;
+}
+.main__organizers-photos{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.main__organizers-photos-img{
+    display: inline-block;
+    height: 50px;
+    margin: 20px;
+}
+.main__organizers-h2{
+    float: left;
+    width: 50%;
+}
+.main__organizers-support{
+    padding-top: 50px;
+    padding-right: 300px;
+    padding-bottom: 70px;
+}
+.main__organizers-support-img{
+    height: 60px;
+}

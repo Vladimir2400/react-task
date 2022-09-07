@@ -1,0 +1,19 @@
+.container{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#timer {
+
+}
+.label {
+    font-size: 20px;
+    padding-left: 2px;
+}
+.time{
+    margin-right: 2px;
+    color: #4063a4;
+    background-color: #d2d2d2;
+    border-radius: 7px;
+    padding: 2px;
+}

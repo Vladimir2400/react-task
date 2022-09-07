@@ -1,0 +1,218 @@
+.main__content{
+    margin-bottom: 0px;
+}
+.main__content-menu-h1 {
+    margin-top: 30px;
+    color: #03039f;
+    font-style: initial;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+.main__content-menu-h2{
+    font-family: Impact, fantasy;
+    font-size: 40px;
+    background:url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612899357_91-p-kartini-na-krasnom-fone-126.jpg) no-repeat center/cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px -4px 1px rgba(10, 10, 10, 0.12);
+}
+.main__content-menu-text{
+    color: #0f0f8f;
+    font-weight: 500;
+}
+.main__content-menu-text-p{
+    margin: 0;
+}
+.main__content-menu-p4{
+    margin-top: 20px;
+    color: #03039f;
+    font-weight: 700;
+}
+.main__content-menu-stock{
+    margin-top: 0px;
+    font-size: 20px;
+    color: #7b35b9
+}
+.main__content-menu-stock-p2 {
+    margin-top: 5px;
+    font-size: 20px ;
+    font-weight: 600;
+    font-family: Bradley Hand, cursive;
+}
+.main-content-menu-btn {
+    background-color: #f8864d;
+    border-radius: 30px;
+    border: none;
+    color: #0d038d;
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.main__content-info{
+    background-color: #ffffff;
+    font-family: sans-serif;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main__content-info-p{
+    padding-top: 0px;
+}
+.main__content-info-p-red-line{
+    margin-top: 40px;
+}
+
+.main__content-project-1-h{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main__content-project-1-photos{
+    background-color: #ffffff;
+    padding-top: 100px;
+    margin-bottom: 40px;
+    padding-bottom: 100px;
+}
+.main__content-project-1-photos-img{
+    width: 340px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.main__content-project-1-btn{
+    width: 300px;
+    height: 70px;
+    background-color: #f8864d;
+    border-radius: 30px;
+    border: none;
+    color: #0d038d;
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.main__content-project-2{
+    background-color: white;
+    margin-top: 40px;
+}
+.main__content-project-2-h{
+    text-align: center;
+    padding-top: 50px;
+}
+.main__content-project-2-photos{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.main__content-project-2-photos-img{
+    display: inline-block;
+    height: 50px;
+    margin: 20px;
+}
+.main__content-project-2-h2{
+    float: left;
+    width: 50%;
+}
+.main__content-project-2-support{
+    padding-top: 50px;
+    padding-right: 300px;
+    padding-bottom: 70px;
+}
+.main__content-project-2-support-img{
+    height: 60px;
+}
+.main__content-menu-stock-t {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+.timer__time{
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 414px){
+    .main__content-info{
+        border-left-width: 0px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        padding-top: 1px;
+        padding-right: 10px;
+        margin: 30px -15px 0px -15px;
+
+    }
+    .main__content-info-p{
+
+    }
+    .main__content-project-1-photos{
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+    .main__content-project-1-h{
+        margin: 15px 0px 20px 0px;
+    }
+    .main__content-project-1-photos img{
+        width: 130px;
+        height: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    .main__content-project-2-h{
+        font-size: 20px;
+    }
+    .main__content-project-2-photos{
+
+    }
+    .main__content-project-2-photos-img{
+        height: 30px;
+    }
+
+
+    .main__content-project-2{
+        margin-top: 20px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .main__content-project-2-h2{
+        font-size: 20px;
+    }
+    .main__content-project-2-h3{
+        font-size: 20px;
+    }
+    .main__content-project-2-support{
+        width: 300px;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+    .main__content-project-2-support-img{
+        height: 30px;
+    }
+}
