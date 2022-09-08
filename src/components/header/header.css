@@ -17,12 +17,18 @@
     font-size: 12px;
     font-weight: bold;
 }
+@media screen and (max-width: 1200px){
+    .main__head-img{
+        margin-right: 200px;
+    }
+}
 @media screen and (max-width: 414px){
     .main__head{
         padding-right: 0px;
         width: 100%;
     }
     .main__head-img{
+        margin-right: 0px;
         padding-right: 30px;
         width: 15%;
     }
