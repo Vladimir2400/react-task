@@ -23,6 +23,7 @@
         width: 100%;
     }
     .main__head-img{
+        margin-right: 0px;
         padding-right: 30px;
         width: 15%;
     }
@@ -33,4 +34,3 @@
         font-size: 7px;
     }
 }
-
