@@ -1,14 +1,54 @@
+import {useState} from "react";
 import './content.css'
 import React from "react";
 import invalidy from "../../../../images/invalidy.jpg";
 import TimerShow from "../../../../scripts/timer/timer";
+import ToDoForm from "./ToDoForm";
+import ToDo from "./ToDo";
 
 
 
 const Content = () => {
+    const[todos, setTodos] = useState([])
+
+    const addTask = (userInput) => {
+      if (userInput){
+          const newItem = {
+              id: Math.random().toString(36).substring(2,9),
+              task: userInput,
+              complete: false
+          }
+          setTodos([...todos, newItem])
+      }
+    }
+    
+    const removeTask = (id) => {
+      setTodos([...todos.filter((todo) => todo.id !== id)])
+    }
+    
+    const handleToggle = (id) => {
+      setTodos([
+          ...todos.map((todo)=>
+            todo.id === id ? {...todo, complete: !todo.complete}:{...todo}
+          )
+      ])
+    }
+
     return (
         <div className="main__content">
             <div className="main__content-menu">
+                <div><h1>Список задач:{todos.length}</h1></div>
+                <ToDoForm addTask={addTask}/>
+                {todos.map((todo) =>{
+                    return(
+                        <ToDo
+                            todo={todo}
+                            key={todos.id}
+                            toggleTask={handleToggle}
+                            removeTask={removeTask}
+                        />
+                    )
+                })}
                 <h2 className="main__content-menu-h1">ВСЕРОССИЙСКАЯ ИНКЛЮЗИВНАЯ АКЦИЯ</h2>
                 <h2 className="main__content-menu-h2">МУЗЕЙ ДЛЯ ВСЕХ</h2>
                 <div className="main__content-menu-text">
