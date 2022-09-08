@@ -14,4 +14,5 @@ const ToDo = ({todo, toggleTask, removeTask}) => {
         </div>
     )
 }
+
 export default ToDo
